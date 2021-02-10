@@ -52,12 +52,6 @@ class User extends Authenticatable
             case 'older':
                 $users = $users->orderBy('created_at', 'asc');
                 break;
-//            case 'price_desc':
-//                $products = $products->orderBy('price', 'desc');
-//                break;
-//            case 'price_asc':
-//                $products = $products->orderBy('price', 'asc');
-//                break;
         }
 
         return $users->paginate(10);
