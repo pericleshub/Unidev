@@ -14,8 +14,8 @@ class UserRequest extends FormRequest {
         return [
             'name' => 'required|min:3',
             'email' => 'required|email|unique:users',
-            'password' => 'required|min:5',
-            'password_confirmation' => 'required_with:password|same:password|min:5'
+            'password' => 'required|min:6',
+            'remember_token' => 'date'
         ];
     }
 

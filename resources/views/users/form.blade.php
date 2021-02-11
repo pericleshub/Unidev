@@ -17,12 +17,6 @@
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="mb-3">
-            <label for="name" class="form-label">Senha do usuário</label>
-            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required>
-        </div>
-    </div>
 
 
 </div>
